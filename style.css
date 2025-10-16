@@ -248,12 +248,8 @@ html {
 
 /* 头像区域 */
 .profile-card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    border-radius: 24px;
-    padding: 40px;
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
 }
 
 .profile-image {
