@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# System Files
+.CFUserTextEncoding
+.bash_history
+.bash_sessions/
+.zsh_history
+.nuuid.ini
+.pl.conf
+
+# Applications and Personal Folders
+Applications/
+Applications (Parallels)/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Parallels/
+Public/
+.Trash/
+
+# Development Tools
+.claude/
+.claude.json
+.claude.json.backup
+.codebuddy/
+.config/
+.docker/
+.downloader/
+.local/
+.npm/
+.trae-aicc/
+.trae-cn/
+.ufomiao/
+.vscode/
+.android/
+.snipaste/
+.ShadowsocksX-NG/
+
+# Other HTML files (keeping only main site files)
+chinese-name-generator.html
+gold-mining-game.html
+name-generator.css
+name-generator.html
+name-generator.js
+
+# Misc
+.mailcap
+.mime.types
+encode.sh
+localData.json
+xugangzhou/
