@@ -676,11 +676,8 @@ html {
         border: 3px solid rgba(255, 255, 255, 0.3);
     }
 
-    .profile-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
+    .avatar-placeholder {
+        font-size: 3rem;
     }
 
     .profile-card {
