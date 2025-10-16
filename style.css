@@ -173,10 +173,37 @@ html {
 }
 
 .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.profile-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .hero-title {
@@ -558,6 +585,26 @@ html {
     color: var(--text-dark);
 }
 
+.qr-code-container {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+}
+
+.qr-code-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
 .qr-placeholder {
     width: 200px;
     height: 200px;
@@ -596,8 +643,19 @@ html {
 
 /* 响应式设计 */
 @media (max-width: 1024px) {
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
     .hero-title {
         font-size: 3rem;
+    }
+
+    .profile-image {
+        width: 220px;
+        height: 220px;
     }
 
     .timeline-item:nth-child(odd) .timeline-content,
@@ -655,9 +713,21 @@ html {
         gap: 20px;
     }
 
+    .profile-image {
+        width: 180px;
+        height: 180px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+    }
+
     .contact-content {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+
+    .qr-code-container {
+        width: 160px;
+        height: 160px;
+        padding: 8px;
     }
 }
 
