@@ -1,0 +1,17 @@
+{
+  "name": "jackson-personal-website",
+  "version": "1.0.0",
+  "description": "Jackson's Personal Website - AI Product Manager",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "start": "echo 'Static site - use any HTTP server'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackson-xu666/xugangzhou.git"
+  },
+  "keywords": ["personal-website", "portfolio", "ai-product-manager"],
+  "author": "Jackson",
+  "license": "MIT"
+}
